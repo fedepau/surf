@@ -1,14 +1,14 @@
 # CFP's build of surf
 
 ## Applied patches:
-- [bookmarks](https://surf.suckless.org/patches/bookmarks/)
+- [bookmarking](https://surf.suckless.org/patches/bookmarking/)
 - [cachedir](https://surf.suckless.org/patches/cachedir/)
-- [clipboard](https://surf.suckless.org/patches/clipboard/)
+- [clipboard instead of primary](https://surf.suckless.org/patches/clipboard-instead-of-primary/)
 - [homepage](https://surf.suckless.org/patches/homepage/)
 - [modal](https://surf.suckless.org/patches/modal/)
 - [playexternal](https://surf.suckless.org/patches/playexternal/)
 - [quit-hotkey](https://surf.suckless.org/patches/quit-hotkey/)
-- [websearch](https://surf.suckless.org/patches/websearch/)
+- [web search](https://surf.suckless.org/patches/web-search/)
 
 ## Requirements:
 gcr, webkit2gtk. On Arch-based systems:
