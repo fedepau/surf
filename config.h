@@ -122,6 +122,15 @@ static WebKitFindOptions findopts = WEBKIT_FIND_OPTIONS_CASE_INSENSITIVE |
         } \
 }
 
+/* BM_GO */
+#define BM_GO(p) {\
+        .v = (char *[]){ "/bin/sh", "-c", \
+             "prop=\"`surfbook.sh`\" &&" \
+             "xprop -id $1 -f $0 8s -set $0 \"$prop\"", \
+             p, winid, NULL \
+        } \
+}
+
 /* styles */
 /*
  * The iteration will stop at the first match, beginning at the beginning of
@@ -156,7 +165,7 @@ static Key keys[] = {
 	{ 0,                     GDK_KEY_s,      spawn,      SEARCH() },
 	{ 0,                     GDK_KEY_m,      spawn,      BM_ADD("_SURF_URI") },
 	{ 0,                     GDK_KEY_w,      playexternal, { 0 } },
-
+	{ MODKEY,                GDK_KEY_b,      spawn,      BM_GO("_SURF_GO") },
 	{ 0,                     GDK_KEY_i,      insert,     { .i = 1 } },
 	{ 0,                     GDK_KEY_Escape, insert,     { .i = 0 } },
 
