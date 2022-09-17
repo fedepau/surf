@@ -8,6 +8,7 @@
 - [modal](https://surf.suckless.org/patches/modal/)
 - [playexternal](https://surf.suckless.org/patches/playexternal/)
 - [quit-hotkey](https://surf.suckless.org/patches/quit-hotkey/)
+- [short-title](https://surf.suckless.org/patches/short-title/)
 - [web search](https://surf.suckless.org/patches/web-search/)
 
 ## Requirements:
