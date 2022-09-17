@@ -1,3 +1,5 @@
 surf
 *.so
 *.o
+*.orig
+*.rej
